@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasanth S - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      padding: 30px;
+      text-align: center;
+      max-width: 400px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h2.typing {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid;
+      animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .icons {
+      margin: 15px 0;
+    }
+
+    .icons a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: #000;
+    }
+
+    button {
+      background-color: #2962ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #0039cb;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from, to { border-color: transparent }
+      50% { border-color: black; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="vasanth.jpg" alt="Profile Photo" />
+    <h2 class="typing">Vasanth S</h2>
+    <p>Aspiring Web Developer | Python Enthusiast</p>
+
+    <div class="icons">
+      <a href="https://github.com/vasanth6543" target="_blank">??</a>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">??</a>
+    </div>
+
+    <h3>Projects</h3>
+    <ul>
+      <li><strong>Image to Pencil Sketch</strong> � <a href="https://github.com/vasanth6543/sketch-project" target="_blank">View on GitHub</a></li>
+      <li><strong>Netflix Data Dashboard</strong> � <a href="https://github.com/vasanth6543/netflix-dashboard" target="_blank">View on GitHub</a></li>
+    </ul>
+
+    <a href="resume.pdf" download>
+      <button>Download Resume</button>
+    </a>
+  </div>
+</body>
+</html>
