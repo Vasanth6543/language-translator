@@ -74,9 +74,9 @@ Vasanth S
 
 GitHub: Vasanth6543
 
-LinkedIn: [Your LinkedIn Here]
+LinkedIn: [ linkedin.com/in/vasanth021]
 
-Portfolio: [Your Portfolio Here]
+Portfolio: [https://vasanth6543.github.io/vasanthoffl/#projects]
 
 ⭐ If you like this project, give it a star on GitHub!
 
