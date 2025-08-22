@@ -62,7 +62,10 @@ language-translator/
 │-- translator.py       # Main app script
 │-- requirements.txt    # Dependencies
 │-- README.md           # Project documentation
+
+
 🎯 Future Improvements
+
 🎤 Add speech-to-text & text-to-speech
 
 📱 Convert into a desktop/mobile app
@@ -70,11 +73,11 @@ language-translator/
 🌐 Support offline translations
 
 👤 Author
-Vasanth S
+    Vasanth S
 
 GitHub: Vasanth6543
 
-LinkedIn: [https://inkedin.com/in/vasanth021]
+LinkedIn: [linkedin.com/in/vasanth021]
 
 Portfolio: [https://vasanth6543.github.io/vasanthoffl/#projects]
 
