@@ -74,7 +74,7 @@ Vasanth S
 
 GitHub: Vasanth6543
 
-LinkedIn: [ linkedin.com/in/vasanth021]
+LinkedIn: [https://inkedin.com/in/vasanth021]
 
 Portfolio: [https://vasanth6543.github.io/vasanthoffl/#projects]
 
